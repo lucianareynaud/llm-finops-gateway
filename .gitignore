@@ -1,0 +1,95 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.python-version
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / build
+build/
+dist/
+site/
+.eggs/
+*.egg
+*.egg-info/
+pip-wheel-metadata/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache/
+hypothesis/
+coverage.xml
+
+# Type checking / lint
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Local env / secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# Logs / runtime files
+*.log
+logs/
+tmp/
+temp/
+*.pid
+*.out
+
+# macOS
+.DS_Store
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Docker / local containers
+docker-data/
+*.tar
+
+# Colima / local-only artifacts
+.colima/
+
+# Frontend / static tooling if ever introduced
+node_modules/
+.npm/
+.pnpm-store/
+dist-frontend/
+coverage/
+
+# Generated screenshots / demo artifacts
+examples/screenshots/*
+!examples/screenshots/.gitkeep
+
+# Local databases / stores
+*.db
+*.sqlite
+*.sqlite3
+
+# OS / misc
+Thumbs.db
